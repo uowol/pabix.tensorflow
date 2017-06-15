@@ -8,3 +8,4 @@ y = tf.multiply(a, b)
 sess = tf.Session()
 
 print(sess.run(y, feed_dict={a:3,b:3}))
+

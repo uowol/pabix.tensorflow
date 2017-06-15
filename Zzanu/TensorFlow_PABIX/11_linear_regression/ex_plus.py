@@ -57,6 +57,7 @@ print('# ------------------------------------------------ #')
 # tf.random_shuffle(value, seed=None, name=None)
 
 showOp(tf.random_shuffle(tf.Variable([1,2,3,4,5,6])))           # [3 4 6 5 2 1]
+showOp(tf.random_shuffle(tf.Variable([1,2,3,4,5,6])))           # [3 4 6 5 2 1]
 showOp(tf.random_shuffle(tf.Variable([[1,2], [3,4], [5,6]])))   # [[5 6] [3 4] [1 2]]
 
 print('# ------------------------------------------------ #')
